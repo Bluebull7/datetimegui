@@ -1,6 +1,13 @@
 # GET CLOCK FOR GUi
+import time
 
-from world-time-api import services as serv
 
-myclient = serv.client('timezone')
-requests = {"area":"America","location":"New York"}
+class timeIs():
+    
+    def __init__(self,utc,time,date):
+        utc = self.utc
+        time = self.time
+        date = self.date
+    def getTime(self,utc: int):
+
+        pass
